@@ -1,0 +1,4 @@
+#ifndef BEFORE_RELEASE_HPP
+#define BEFORE_RELEASE_HPP
+
+#endif // BEFORE_RELEASE_HPP

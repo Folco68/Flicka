@@ -1,0 +1,6 @@
+#ifndef GLOBAL_HPP
+#define GLOBAL_HPP
+
+#define SOURCE_FILE_EXTENSION "L5K"
+
+#endif // GLOBAL_HPP

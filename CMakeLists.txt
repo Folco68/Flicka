@@ -7,10 +7,22 @@ qt_standard_project_setup()
 
 qt_add_executable(Flicka
     WIN32 MACOSX_BUNDLE
+
+    # General
     main.cpp
-    MainWindow.cpp
-    MainWindow.hpp
-    MainWindow.ui
+    Global.hpp
+    BeforeRelease.hpp
+
+    # DOCS
+    TODO
+
+    # UI
+    FileDrop/DropLabel.hpp
+    FileDrop/DropLabel.cpp
+    FileDrop/DropWindow.hpp FileDrop/DropWindow.cpp FileDrop/DropWindow.ui
+
+
+
 )
 
 target_link_libraries(Flicka
