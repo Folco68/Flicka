@@ -21,24 +21,60 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QGroupBox" name="GroupDrop">
+    <widget class="DropBox" name="GroupDrop">
      <property name="acceptDrops">
       <bool>true</bool>
      </property>
      <property name="title">
-      <string>Drop here the files you want to compare</string>
+      <string/>
      </property>
      <property name="alignment">
       <set>Qt::AlignmentFlag::AlignCenter</set>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
-       <widget class="DropLabel" name="LabelDrop">
-        <property name="acceptDrops">
-         <bool>true</bool>
+       <widget class="QLabel" name="LabelMessage">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <italic>true</italic>
+         </font>
         </property>
         <property name="text">
-         <string/>
+         <string>Drop message</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="VSpacerDrop">
+        <property name="orientation">
+         <enum>Qt::Orientation::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="LabelFilename1">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="LabelFilename2">
+        <property name="text">
+         <string>TextLabel</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -62,9 +98,10 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>DropLabel</class>
-   <extends>QLabel</extends>
-   <header>DropLabel.hpp</header>
+   <class>DropBox</class>
+   <extends>QGroupBox</extends>
+   <header>DropBox.hpp</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>

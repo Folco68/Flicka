@@ -1,6 +1,8 @@
 #ifndef DROPWINDOW_HPP
 #define DROPWINDOW_HPP
 
+#include <QList>
+#include <QString>
 #include <QWidget>
 
 namespace Ui {
@@ -18,7 +20,8 @@ class DropWindow: public QWidget
   private:
     Ui::DropWindow* ui;
 
-    void compare() const;
+    void filesDropped(QList<QString> files);
+    void compare();
 };
 
 #endif // DROPWINDOW_HPP

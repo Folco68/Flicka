@@ -14,15 +14,21 @@ qt_add_executable(Flicka
     BeforeRelease.hpp
 
     # DOCS
+    LICENSE
+    README.md
     TODO
 
-    # UI
-    FileDrop/DropLabel.hpp
-    FileDrop/DropLabel.cpp
-    FileDrop/DropWindow.hpp FileDrop/DropWindow.cpp FileDrop/DropWindow.ui
+    # Drop window
+    DropWindow/DropBox.cpp
+    DropWindow/DropBox.hpp
+    DropWindow/DropWindow.cpp
+    DropWindow/DropWindow.hpp
+    DropWindow/DropWindow.ui
 
-
-
+    # Compare
+    Compare/CompareWindow.cpp
+    Compare/CompareWindow.hpp
+    Compare/CompareWindow.ui
 )
 
 target_link_libraries(Flicka
