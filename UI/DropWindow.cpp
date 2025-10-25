@@ -65,7 +65,7 @@ void DropWindow::filesDropped(QList<QString> files)
 void DropWindow::compare()
 {
     hide();
-    CompareWindow* CompareWindow = new class CompareWindow(this /*, args*/);
+    CompareWindow* CompareWindow = new class CompareWindow(ui->LabelFilename1->text(), ui->LabelFilename2->text(), this);
     CompareWindow->exec();
     delete CompareWindow;
     show();
