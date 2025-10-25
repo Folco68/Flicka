@@ -2,14 +2,14 @@
 #define DROPWINDOW_HPP
 
 #include <QList>
+#include <QMainWindow>
 #include <QString>
-#include <QWidget>
 
 namespace Ui {
 class DropWindow;
 }
 
-class DropWindow: public QWidget
+class DropWindow: public QMainWindow
 {
     Q_OBJECT
 

@@ -14,9 +14,9 @@ qt_add_executable(Flicka
     BeforeRelease.hpp
 
     # DOCS
-    LICENSE
-    README.md
-    TODO
+    Docs/LICENSE
+    Docs/README.md
+    Docs/TODO
 
     # Drop window
     DropWindow/DropBox.cpp
@@ -29,6 +29,12 @@ qt_add_executable(Flicka
     Compare/CompareWindow.cpp
     Compare/CompareWindow.hpp
     Compare/CompareWindow.ui
+
+    # Resources
+    Resources/Icon/IconBase.ico
+    Resources/Icon/IconBase.png
+    Resources/Icon/Icons.qrc
+    Resources/Icon/Icons.rc
 )
 
 target_link_libraries(Flicka

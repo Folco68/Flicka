@@ -1,2 +1,3 @@
 - GPL the code
-- Application and window logo
++ Application and window logo
+- Window icon doesn't work. Turn DropWindow into a QMainWindow??
