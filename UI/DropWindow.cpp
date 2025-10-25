@@ -1,6 +1,6 @@
 #include "DropWindow.hpp"
-#include "../Compare/CompareWindow.hpp"
 #include "../Global.hpp"
+#include "CompareWindow.hpp"
 #include "DropBox.hpp"
 #include "ui_DropWindow.h"
 #include <QFileInfo>

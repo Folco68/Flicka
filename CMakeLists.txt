@@ -25,17 +25,15 @@ qt_add_executable(Flicka
     Docs/README.md
     Docs/TODO
 
-    # Drop window
-    DropWindow/DropBox.cpp
-    DropWindow/DropBox.hpp
-    DropWindow/DropWindow.cpp
-    DropWindow/DropWindow.hpp
-    DropWindow/DropWindow.ui
-
-    # Compare
-    Compare/CompareWindow.cpp
-    Compare/CompareWindow.hpp
-    Compare/CompareWindow.ui
+    # UI
+    UI/CompareWindow.cpp
+    UI/CompareWindow.hpp
+    UI/CompareWindow.ui
+    UI/DropBox.cpp
+    UI/DropBox.hpp
+    UI/DropWindow.cpp
+    UI/DropWindow.hpp
+    UI/DropWindow.ui
 
     # Resources
     Resources/Icon/IconBase.ico
