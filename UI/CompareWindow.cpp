@@ -26,10 +26,10 @@ CompareWindow::~CompareWindow()
 
 void CompareWindow::loadFiles()
 {
-    loadFile(this->File1, ui->TreeLeft);
-    loadFile(this->File2, ui->TreeRight);
+    loadFile(this->File1, ui->ListLeft);
+    loadFile(this->File2, ui->ListRight);
 }
 
-void CompareWindow::loadFile(QString filename, QTreeWidget* tree)
+void CompareWindow::loadFile(QString filename, QListWidget* list)
 {
 }

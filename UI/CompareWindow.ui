@@ -19,7 +19,7 @@
      <property name="orientation">
       <enum>Qt::Orientation::Horizontal</enum>
      </property>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <layout class="QVBoxLayout" name="VLayoutLeft">
        <item>
         <widget class="QLineEdit" name="LineEditLeft">
@@ -29,20 +29,14 @@
         </widget>
        </item>
        <item>
-        <widget class="QTreeWidget" name="TreeLeft">
-         <column>
-          <property name="text">
-           <string notr="true">1</string>
-          </property>
-         </column>
-        </widget>
+        <widget class="QListWidget" name="ListLeft"/>
        </item>
        <item>
         <widget class="QPlainTextEdit" name="TextEditLeft"/>
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <layout class="QVBoxLayout" name="VLayoutRight">
        <item>
         <widget class="QLineEdit" name="LineEditRight">
@@ -52,13 +46,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QTreeWidget" name="TreeRight">
-         <column>
-          <property name="text">
-           <string notr="true">1</string>
-          </property>
-         </column>
-        </widget>
+        <widget class="QListWidget" name="ListRight"/>
        </item>
        <item>
         <widget class="QPlainTextEdit" name="TextEditRight"/>

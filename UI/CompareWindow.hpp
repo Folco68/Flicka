@@ -2,8 +2,8 @@
 #define COMPAREWINDOW_HPP
 
 #include <QDialog>
+#include <QListWidget>
 #include <QString>
-#include <QTreeWidget>
 
 namespace Ui {
 class CompareWindow;
@@ -23,7 +23,7 @@ class CompareWindow: public QDialog
     QString            File2;
 
     void loadFiles();
-    void loadFile(QString filename, QTreeWidget* tree);
+    void loadFile(QString filename, QListWidget* list);
 };
 
 #endif // COMPAREWINDOW_HPP
